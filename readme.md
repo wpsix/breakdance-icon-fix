@@ -1,6 +1,7 @@
 # Breakdance Icon Fix
 
-A WordPress plugin that provides enhanced icon styling fixes for Breakdance page builder elements.
+This plugin fixes color selection for stroke-based icons.
+https://wpsix.com/breakdance-icons/
 
 ## Description
 
@@ -12,9 +13,6 @@ This plugin extends Breakdance's icon functionality by registering a custom macr
 - **Stroke Color Support**: Adds explicit stroke color styling for SVG icons
 - **Style Variants**: Supports solid and outline icon styles
 - **Hover States**: Includes hover state styling for interactive icons
-- **Shape Options**: Configurable corners (round or custom)
-- **Position Control**: Icon nudge/offset capabilities
-- **Responsive**: Size and padding controls that work across breakpoints
 
 ## Installation
 
@@ -54,25 +52,14 @@ breakdance-icon-fix/
     └── atom-v1-icon-css.twig          # Custom icon CSS macro
 ```
 
-## Technical Details
-
-- **Namespace**: BreakdanceIconFix
-- **Hook Priority**: 11 (loads after Breakdance core)
-- **Macro Type**: Twig template macro
-- **Save Location**: Registered via `Breakdance\ElementStudio\registerSaveLocation()`
-
 ## Author
 
 **Bence Boruzs**  
-Website: [wpsix.com](https://wpsix.com/)
+Website: [wpsix.com](https://wpsix.com/breakdance-icons/)
 
 ## License
 
 GPL2 - GNU General Public License v2 or later
-
-## Support
-
-For issues, questions, or contributions, visit [wpsix.com/plugins/breakdance-icon-fix/](https://wpsix.com/plugins/breakdance-icon-fix/)
 
 ## Changelog
 
