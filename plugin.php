@@ -17,6 +17,8 @@ if (!defined('ABSPATH')) {
     exit;
 }
 
+define( 'BREAKDANCE_ICON_FIX_VERSION', '1.0.0' );
+
 add_action('breakdance_loaded', function () {
     \Breakdance\ElementStudio\registerSaveLocation(
         getDirectoryPathRelativeToPluginFolder( __DIR__ ) . '/macros',

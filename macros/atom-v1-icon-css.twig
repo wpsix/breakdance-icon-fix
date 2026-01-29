@@ -60,6 +60,7 @@
         {{ selector }} svg:first-child {
             {{ _self.svgColor(iconDesign.color, 'grad-%%ID%%') }}
 			stroke: {{ iconDesign.color }};
+			color: {{ iconDesign.color }};
         }
     {% endif %}
 
@@ -76,6 +77,7 @@
             {{ hoverSelector }} svg:first-child {
                 {{ _self.svgColor(iconDesign.color_hover, 'grad-hover-%%ID%%') }}
 				stroke: {{ iconDesign.color_hover }};
+				color: {{ iconDesign.color_hover }};
             }
         {% endif %}
     {% endif %}
